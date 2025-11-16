@@ -1,0 +1,59 @@
+# Default symbol and color if the player's level/color doesn't match any specific thresholds
+default-color: "&7"
+default-symbol: "∆"
+
+#Placeholders
+placeholder:
+  cla_level_color: "&7[{level}{symbol}&7]"
+  cla_color_level: "{level}"
+  cla_color_symbol: "{symbol}"
+
+level-colors:
+  - level: 10
+    color: "&a"  #  1-10
+  - level: 20
+    color: "&e"  #  11-20
+  - level: 30
+    color: "&6"  #  21-30
+  - level: 40
+    color: "&d"  #  31-40
+  - level: 50
+    color: "&b"  #  41-50 (color: "#00FFFF" You can use hex code here 1.16+)
+  - level: 60
+    color: "&5"  #  51-60
+  - level: 70
+    color: "&c"  #  61-70
+  - level: 80
+    color: "&9"  #  71-80
+  - level: 90
+    color: "&4"  #  81-90
+  - level: 100
+    color: "&f"  #  91-100
+#Add more levels below...
+
+level-symbols:
+  - level: 10
+    symbol: "•"  #  1-10
+  - level: 20
+    symbol: "★"  #  11-20
+  - level: 30
+    symbol: "✿"  #  21-30
+  - level: 40
+    symbol: "❖"  #  31-40
+  - level: 50
+    symbol: "✦"  #  41-50 (symbol: "#00FFFF✦" You can use hex code here 1.16+)
+  - level: 60
+    symbol: "⚡"  #  51-60
+  - level: 70
+    symbol: "♕"  #  61-70
+  - level: 80
+    symbol: "❁"  #  71-80
+  - level: 90
+    symbol: "☠"  #  81-90
+  - level: 100
+    symbol: "☀"  #  91-100
+
+#Experience Bar Section
+exp-bar-enabled: false
+exp-bar-update-interval: 20
+

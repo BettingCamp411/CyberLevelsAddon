@@ -1,0 +1,18 @@
+name: CyberLevelsAddon
+version: '${project.version}'
+main: net.aero.cyberlevelsaddon.CyberLevelsAddon
+api-version: '1.16'
+folia-supported: true
+depend:
+  - PlaceholderAPI
+  - CyberLevels
+commands:
+  cyberlevelsaddon:
+    description: Main command for CyberLevelsAddon.
+    usage: /cyberlevelsaddon <reload>
+    permission-message: You do not have permission to use this command.
+
+permissions:
+  cyberlevelsaddon.reload:
+    description: Allows user to reload the plugin.
+    default: op
